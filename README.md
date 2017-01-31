@@ -1,5 +1,7 @@
 # WeatherStationBot
 
+![Image of the bot](https://s3-eu-west-1.amazonaws.com/static-webnicol/weathersttionbot.png)
+
 ## Weather station Facebook Messenger Bot 
 
 ### Requirementes
