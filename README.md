@@ -4,7 +4,7 @@
 
 ## Weather station Facebook Messenger Bot 
 
-### Requirementes
+### Requirements
 - api.ai account
 - aws account (lambda and API gateway)
 - netatmo account
