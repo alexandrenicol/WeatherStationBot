@@ -1,0 +1,74 @@
+{
+  "userSays": [
+    {
+      "id": "e5114e77-86e5-4f7b-b4df-1a0de044a914",
+      "data": [
+        {
+          "text": "humidity"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b04086ee-ff25-4795-ba37-734ad3b72813",
+      "data": [
+        {
+          "text": "what is the humidity"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "07f9a13b-9790-41b9-b8e8-ede5cc9cd417",
+      "data": [
+        {
+          "text": "what about the humidity"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bda3d136-b09d-4a05-9676-774a5ed3f142",
+      "data": [
+        {
+          "text": "Give me the humidity"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d37b672a-69ae-4b67-a254-fcf62e3bc1ae",
+  "name": "HumidityKnownLocation",
+  "auto": true,
+  "contexts": [
+    "moduleLocation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "humidity",
+      "affectedContexts": [
+        {
+          "name": "moduleLocation",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

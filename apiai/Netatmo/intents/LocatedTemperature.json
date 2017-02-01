@@ -1,0 +1,158 @@
+{
+  "userSays": [
+    {
+      "id": "2613752c-ea2b-4769-ab77-7dcf98f1dfd0",
+      "data": [
+        {
+          "text": "give me the "
+        },
+        {
+          "text": "outdoor",
+          "alias": "moduleLocation",
+          "meta": "@moduleLocation",
+          "userDefined": true
+        },
+        {
+          "text": " temperature"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5a26526c-c00e-46d9-91ea-ccc7aa582614",
+      "data": [
+        {
+          "text": "what is the temperature for the "
+        },
+        {
+          "text": "outdoor",
+          "alias": "moduleLocation",
+          "meta": "@moduleLocation",
+          "userDefined": false
+        },
+        {
+          "text": " station?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "df6ef803-9c06-4ffb-9d9a-09aeb8c56c21",
+      "data": [
+        {
+          "text": "what the temperature "
+        },
+        {
+          "text": "outdoor",
+          "alias": "moduleLocation",
+          "meta": "@moduleLocation",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1765dfcc-ec7c-4448-b671-1c1f874888f1",
+      "data": [
+        {
+          "text": "Indoor",
+          "alias": "moduleLocation",
+          "meta": "@moduleLocation",
+          "userDefined": true
+        },
+        {
+          "text": " temperature"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ebeeea12-3496-493e-8164-5046459fb4a8",
+      "data": [
+        {
+          "text": "What is the "
+        },
+        {
+          "text": "outdoor",
+          "alias": "moduleLocation",
+          "meta": "@moduleLocation",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "temperature",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2c312c3d-1a46-40da-9377-608974033168",
+      "data": [
+        {
+          "text": "What\u0027s the temperature from the "
+        },
+        {
+          "text": "indoor",
+          "alias": "moduleLocation",
+          "meta": "@moduleLocation",
+          "userDefined": true
+        },
+        {
+          "text": " module?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "df9d8299-8fbe-4a7c-b408-a7fbe8641550",
+  "name": "LocatedTemperature",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "temperature",
+      "affectedContexts": [
+        {
+          "name": "moduleLocation",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@moduleLocation",
+          "name": "moduleLocation",
+          "value": "$moduleLocation",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

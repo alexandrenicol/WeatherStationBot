@@ -1,0 +1,55 @@
+{
+  "userSays": [
+    {
+      "id": "90e1a419-6cdd-448d-829d-015641498e8f",
+      "data": [
+        {
+          "text": "@moduleLocation:moduleLocation"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    }
+  ],
+  "id": "3946fa5b-50ee-403d-bd98-1489c2dccb83",
+  "name": "TemperaturePostWhere",
+  "auto": true,
+  "contexts": [
+    "needTemperatureWhere"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "temperature",
+      "affectedContexts": [
+        {
+          "name": "needTemperatureWhere",
+          "lifespan": 5
+        },
+        {
+          "name": "moduleLocation",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@moduleLocation",
+          "name": "moduleLocation",
+          "value": "$moduleLocation",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

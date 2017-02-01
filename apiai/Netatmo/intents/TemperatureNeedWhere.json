@@ -1,0 +1,80 @@
+{
+  "userSays": [
+    {
+      "id": "a60f0463-556c-4989-a1a1-63bc0c913f9f",
+      "data": [
+        {
+          "text": "what about the temperature"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3b30064a-be6d-48f8-a3e3-5caa718f79c8",
+      "data": [
+        {
+          "text": "what is the temperature"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "06c91ad7-4d12-4ab7-b90c-f49067cbb6a6",
+      "data": [
+        {
+          "text": "give me the temperature"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8e201424-3ccb-4fd9-864f-f5363f97e230",
+      "data": [
+        {
+          "text": "temperature"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "55d71c45-9f4b-429a-a151-87b7cffbc0f8",
+  "name": "TemperatureNeedWhere",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "needwhere",
+      "affectedContexts": [
+        {
+          "name": "needTemperatureWhere",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "For which module do you want the temperature?"
+        },
+        {
+          "title": "moduleLocation",
+          "replies": [
+            "indoor",
+            "outdoor"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,80 @@
+{
+  "userSays": [
+    {
+      "id": "432ff2d0-3df8-470d-a1e2-bb1525d94a3b",
+      "data": [
+        {
+          "text": "humidity"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "99b22216-a6f8-48f8-ad04-bccb2c0798e0",
+      "data": [
+        {
+          "text": "what about the humidity"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f3870b81-6ee1-4351-bf37-7de447c24305",
+      "data": [
+        {
+          "text": "what is the humidity"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9015f74a-67df-4cea-8d80-6368099beb7e",
+      "data": [
+        {
+          "text": "Give me the humidity"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f6e29892-55ac-498f-b956-22af1474a36e",
+  "name": "HumidityNeedWhere",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "needwhere",
+      "affectedContexts": [
+        {
+          "name": "needHumidityModuleLocation",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "For which module do you want the humidity?"
+        },
+        {
+          "title": "moduleLocation",
+          "replies": [
+            "indoor",
+            "outdoor"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ee9c6277-530e-4401-9aa3-64dd62e40ccc",
+  "name": "moduleLocation",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "outdoor",
+      "synonyms": [
+        "outdoor",
+        "outside"
+      ]
+    },
+    {
+      "value": "indoor",
+      "synonyms": [
+        "indoor"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

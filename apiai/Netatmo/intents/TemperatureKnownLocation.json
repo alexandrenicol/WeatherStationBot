@@ -1,0 +1,84 @@
+{
+  "userSays": [
+    {
+      "id": "74c97ad4-f6ec-4538-bbe5-ea35b5c253ae",
+      "data": [
+        {
+          "text": "and the temperature?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "dcdb70bd-d0a1-4d11-b9c0-9af156e6ecd0",
+      "data": [
+        {
+          "text": "temperature"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "521f1957-4018-4c85-b454-95196fa8878c",
+      "data": [
+        {
+          "text": "What about the temperature"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eaf31d43-7180-4d23-8568-1732d1941a5f",
+      "data": [
+        {
+          "text": "What is the temperature"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bcc0093c-58a8-4457-9022-2e5e2439aa50",
+      "data": [
+        {
+          "text": "Give me the temperature"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d8765f3a-2849-4ed4-9488-0b44be7ab065",
+  "name": "TemperatureKnownLocation",
+  "auto": true,
+  "contexts": [
+    "moduleLocation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "temperature",
+      "affectedContexts": [
+        {
+          "name": "moduleLocation",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,51 @@
+{
+  "userSays": [
+    {
+      "id": "f4d929aa-eeee-45ba-93fe-e4529f700278",
+      "data": [
+        {
+          "text": "@moduleLocation:moduleLocation"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    }
+  ],
+  "id": "367c0698-bda4-49ef-b55f-ae7284cb8db2",
+  "name": "HumidityPostWhere",
+  "auto": true,
+  "contexts": [
+    "needHumidityModuleLocation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "humidity",
+      "affectedContexts": [
+        {
+          "name": "moduleLocation",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@moduleLocation",
+          "name": "moduleLocation",
+          "value": "$moduleLocation",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

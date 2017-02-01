@@ -1,0 +1,112 @@
+{
+  "userSays": [
+    {
+      "id": "cd639842-1737-410e-8bfd-671b3a957f57",
+      "data": [
+        {
+          "text": "what is the humidity from the "
+        },
+        {
+          "text": "outdoor",
+          "alias": "moduleLocation",
+          "meta": "@moduleLocation",
+          "userDefined": false
+        },
+        {
+          "text": " station?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "22b4f228-b6af-4fc5-82da-28bfded80ae6",
+      "data": [
+        {
+          "text": "humidity "
+        },
+        {
+          "text": "outdoor",
+          "alias": "moduleLocation",
+          "meta": "@moduleLocation",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "69e920d0-4fb8-4e65-9f89-e55c9e6928bd",
+      "data": [
+        {
+          "text": "what is the humidity for the "
+        },
+        {
+          "text": "indoor",
+          "alias": "moduleLocation",
+          "meta": "@moduleLocation",
+          "userDefined": false
+        },
+        {
+          "text": " module?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4bb03e6c-8b31-468a-9bb9-7575f421ef24",
+      "data": [
+        {
+          "text": "What is the humidity "
+        },
+        {
+          "text": "outdoor",
+          "alias": "moduleLocation",
+          "meta": "@moduleLocation",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "28e3096d-3449-4b85-90d0-6d149ddaba5c",
+  "name": "LocatedHumidity",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "humidity",
+      "affectedContexts": [
+        {
+          "name": "moduleLocation",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@moduleLocation",
+          "name": "moduleLocation",
+          "value": "$moduleLocation",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

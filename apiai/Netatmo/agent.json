@@ -1,0 +1,26 @@
+{
+  "language": "en",
+  "enabledDomainFeatures": [
+    "smalltalk-domain-on",
+    "smalltalk-fulfillment-on"
+  ],
+  "enableFulfillment": false,
+  "googleAssistant": {
+    "googleAssistantCompatible": false,
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1"
+  },
+  "defaultTimezone": "Europe/London",
+  "webhook": {
+    "available": false,
+    "useForDomains": false
+  },
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.2
+}
