@@ -14,12 +14,13 @@
 ### Installation
 - clone the repository and enter the folder
 - run 'npm install'
+- upload the agent - Netatmo.zip - onto your api.ai account
 - Change your keys in:
 - - lib/apiai.js (Bearer Authorization)
 - - lib/Facebook.js (access_token)
 - - lib/Netatmo.js (client_id, client_secret, username and password)
 - - lib/index.js (verify_token)
-- - deploy the lambda on AWS
+- Deploy the lambda on AWS
 
 ### Contact
 - Twitter @nicol_alexandre
